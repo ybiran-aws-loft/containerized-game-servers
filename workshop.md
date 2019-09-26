@@ -228,4 +228,4 @@ The autoscale inline policy will look like:
    kubectl logs `kubectl get po | grep autopilot| awk '{print $1}'`
    ```
    
-   After few minutes, we can start seeing metrics populated in cloudwatch.
+   After few minutes, we can start seeing metrics populated in cloudwatch
